@@ -17,6 +17,7 @@ const App: FC = () => {
         </Route>
         <Route path="/login" element={<Login />} />
       </Routes>
+      <h1>无关紧要的问题</h1>
     </BrowserRouter>
   );
 };
