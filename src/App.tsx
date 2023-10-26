@@ -13,6 +13,7 @@ const App: FC = () => {
         <Route path="/" element={<Container />}>
           <Route path="foo" element={<Foo />} />
           <Route path="bar" element={<Bar />} />
+          <div>222</div>
         </Route>
         <Route path="/login" element={<Login />} />
       </Routes>
