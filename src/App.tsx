@@ -8,6 +8,7 @@ import Bar from "@/views/Bar";
 const App: FC = () => {
   return (
     <BrowserRouter>
+      <h1>测试功能4</h1>
       <Routes>
         <Route path="/" element={<Container />}>
           <Route path="foo" element={<Foo />} />
